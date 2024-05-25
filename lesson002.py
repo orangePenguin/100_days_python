@@ -18,15 +18,15 @@ print(f"The highest score in the class: {highest_score}")
 # Adding even numbers.
 print("Enter a number between 0 and 1000.")
 target = int(input()) + 1  # Increment for last digit in range.
-sum = 0
+total = 0
 
 if target >= 1002:
     print("Enter a number which is <= 1000.")
 else:
     for even in range(0, target, 2):
-        sum += even
+        total += even
 
-print(f"The sum of even numbers: {sum}")
+print(f"The sum of even numbers: {total}")
 
 # Password Generator.
 letters = [
